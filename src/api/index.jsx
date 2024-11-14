@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://fakestoreapi.com",
-  headers: { "Content-Type": "application/json" },
+  baseURL: "https://fakestoreapi.com",
 });
+
 export default api;

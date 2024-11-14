@@ -15,23 +15,6 @@ const Basket = () => {
       <h1>SEPET</h1>
 
       <div>
-        {/* ürünler /}
-        <div className="d-flex flex-column gap-5  mt-4">
-          {basket.length === 0 ? (
-            <div className="text-center fs-5">
-              <p>Öncelikle sepete bir ürün ekleyiniz</p>
-              <Link to="/" className="btn btn-primary">
-                Ürünlere Git
-              </Link>
-            </div>
-          ) : (
-            basket.map((product) => (
-              <BasketItem key={product.id} product={product} />
-            ))
-          )}
-        </div>
-
-        {/ toplam bilgisi */}
         <div className="rounded my-5 shadow border p-4 d-flex  justify-content-between align-items-center">
           <div className="fs-4">
             <p>

@@ -9,7 +9,6 @@ const Header = () => {
 
   const [categories, setCategories] = useState([]);
 
-  // api'dan kategorileri al
   useEffect(() => {
     api
       .get("/products/categories") //
